@@ -1,0 +1,21 @@
+{
+  "name": "Mix Panel Lookup",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Sending IDs over to mixpanel doesn't give enough context - Convert them into their real names",
+  "icons": { "16": "img/16.png", "48": "img/48.png", "128": "img/128.png" },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Inject!"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
