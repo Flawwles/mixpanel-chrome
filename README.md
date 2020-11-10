@@ -2,6 +2,7 @@
 
 Grabs any `eninity:id` from a webpage looks up the article title on wikidata and replaces it 
 
+![Example image](./chrome-store/screenshots/004.png)
 
 ## Development
 
