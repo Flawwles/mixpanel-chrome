@@ -3,15 +3,21 @@
 Grabs any `eninity:id` from a webpage looks up the article title on wikidata and replaces it 
 
 
-
 # Getting started
 
-### Development
+## Development
 
-Run `parcel src/inject.js`
+`npm i`
 
-##### Build
 
-Run `parcel build src/inject.js` then zip the `dist` folder
+ `parcel src/inject.js`
+
+### Build
+
+`parcel build src/inject.js` then zip the `dist` folder
+
+# Development notes
+
+Files from the static folder are copied across with parcel 
 
 
