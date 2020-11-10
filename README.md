@@ -3,8 +3,6 @@
 Grabs any `eninity:id` from a webpage looks up the article title on wikidata and replaces it 
 
 
-# Getting started
-
 ## Development
 
 `npm i`
