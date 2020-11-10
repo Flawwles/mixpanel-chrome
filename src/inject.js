@@ -1,4 +1,10 @@
+import { querySelectorAllDeep, querySelectorDeep } from 'query-selector-shadow-dom';
+
 (function () {
+
+  const testDom = querySelectorAllDeep(".column-cell");
+  console.log(testDom);
+
   async function getTitle(id) {
     let qid = `Q${id}`;
     let jsonData = await makeRequest(id);
@@ -73,3 +79,4 @@
     }
   });
 })();
+

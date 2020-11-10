@@ -1,0 +1,25 @@
+{
+  "name": "mix-panel-chrome",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flawwles/mixpanel-chrome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flawwles/mixpanel-chrome/issues"
+  },
+  "homepage": "https://github.com/Flawwles/mixpanel-chrome#readme",
+  "dependencies": {
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "query-selector-shadow-dom": "^0.8.0"
+  }
+}
